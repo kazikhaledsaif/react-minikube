@@ -5,10 +5,15 @@ import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
 
 export default [
-  { ignores: ['.node_modules/',
-    'dist/',
-    'commitlint.config.js',
-    '.husky/'] },
+  {
+    ignores: [
+      '.node_modules/',
+      'dist/',
+      'commitlint.config.js',
+      '.husky/',
+      'src/__tests__',
+    ],
+  },
   {
     files: ['**/*.{js,jsx}'],
     languageOptions: {
