@@ -1,0 +1,21 @@
+# Base image for development
+FROM node:alpine AS development
+
+# Set working directory
+WORKDIR /app
+
+# Install dependencies
+COPY package*.json ./
+RUN npm install
+
+# Copy source files
+COPY . .
+
+# Install Vite globally for development
+RUN npm install -g vite
+
+# Expose port for Vite development server
+EXPOSE 3000
+
+# Start Vite development server
+CMD ["vite", "dev"]
