@@ -11,7 +11,7 @@ function App() {
       </div>
       <h1>Testing React app in mini kube</h1>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click on the Vite and React logos to learn more changes
       </p>
     </>
   )
