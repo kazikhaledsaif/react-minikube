@@ -15,5 +15,6 @@ spec:
       containers:
         - name: react-app
           image: kazikhaledsaif/react-minikube:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
