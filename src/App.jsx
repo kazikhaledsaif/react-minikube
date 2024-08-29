@@ -11,7 +11,7 @@ function App() {
       </div>
       <h1>Testing React app in mini kube</h1>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more changes
+        This is a test app for minikube and ArgoCD
       </p>
     </>
   )
