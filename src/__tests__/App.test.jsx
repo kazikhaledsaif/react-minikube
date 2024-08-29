@@ -5,7 +5,7 @@ import App from '../App'
 test('renders welcome message', () => {
   render(<App />)
   const headingElement = screen.getByText((content, element) =>
-    content.startsWith('Click on the Vite and React logos'),
+    content.startsWith('Testing React app in mini kube'),
   )
   expect(headingElement).toBeInTheDocument()
 })
