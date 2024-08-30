@@ -11,9 +11,6 @@ RUN npm install
 # Copy source files
 COPY . .
 
-# Install Vite globally for development
-RUN npm install -g vite
-
 # Expose port for Vite development server
 EXPOSE 3000
 
